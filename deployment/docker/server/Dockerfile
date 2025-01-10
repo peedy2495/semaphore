@@ -50,8 +50,8 @@ FROM alpine:3.19
 ARG TARGETARCH="amd64"
 # renovate: datasource=pypi depName=ansible
 
-ENV ANSIBLE_VERSION 9.8.0
-ENV MITOGEN_VERSION 0.3.8
+ENV ANSIBLE_VERSION 11.1.0
+ENV MITOGEN_VERSION 0.3.20
 
 ARG ANSIBLE_VENV_PATH=/opt/semaphore/apps/ansible/${ANSIBLE_VERSION}/venv
 
